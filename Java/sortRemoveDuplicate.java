@@ -63,8 +63,9 @@ public class sortRemoveDuplicate{
             }
             System.out.println();
             System.out.println("------Program End------");
-            
+            scan.close();
     }
+   
 }
 
 /*
