@@ -1,12 +1,12 @@
 package Java;
 
 // Base class 
-class Student {
+class student {
     protected String name;
     protected int age;
     protected String studentID;
 
-    public Student(String name, int age, String studentID) {
+    public student(String name, int age, String studentID) {
         this.name = name;
         this.age = age;
         this.studentID = studentID;
@@ -25,7 +25,7 @@ interface Student_details {
 }
 
 // UGStudent class (inherits Student, implements StudentOperation)
-class UGStudent extends Student implements Student_details {
+class UGStudent extends student implements Student_details {
     private String major;
     private int semester;
 
@@ -44,7 +44,7 @@ class UGStudent extends Student implements Student_details {
 }
 
 // PGStudent class (inherits Student, implements StudentOperation)
-class PGStudent extends Student implements Student_details {
+class PGStudent extends student implements Student_details {
     private String specialization;
     private String researchTopic;
 
